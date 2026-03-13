@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Pesha | Adv. Ankur Bardwaj & Adv. Nikki Awasthi</title>
+    <style>
+        /* Advanced CSS Architecture */
+        :root {
+            --primary-navy: #0A192F;
+            --accent-green: #81C784;
+            --bg-light: #F4F7F6;
+            --text-dark: #2C3E50;
+            --white: #FFFFFF;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+        body { background-color: var(--bg-light); color: var(--text-dark); line-height: 1.7; }
+        
+        /* Sticky Header Navigation */
+        header {
+            background-color: var(--primary-navy);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid var(--accent-green);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .logo-container { display: flex; align-items: center; gap: 15px; }
+        
+        .logo-text h1 { color: var(--white); font-size: 1.8em; letter-spacing: 1px; }
+        .logo-text span { color: var(--accent-green); font-size: 0.8em; text-transform: uppercase; }
+        
+        nav a { color: var(--white); text-decoration: none; margin-left: 25px; font-weight: 600; transition: color 0.3s ease; }
+        nav a:hover { color: var(--accent-green); }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.9)), url('
